@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-cookie-session",
+  "version": "1.0.0",
+  "description": "basic nodejs cookie and session",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/najaroen/nodejs-cookie-session.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/najaroen/nodejs-cookie-session/issues"
+  },
+  "homepage": "https://github.com/najaroen/nodejs-cookie-session#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
